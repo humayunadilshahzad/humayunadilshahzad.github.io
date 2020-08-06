@@ -38,29 +38,3 @@ function NavBar() {
 }
 
 export default NavBar;
-
-
-{/* <a 
-href="https://reactjs.org"
->
-  About
-</a>
-
-<a        
-href="https://reactjs.org"
->
-  Projects
-</a>
-<a
-  href="https://reactjs.org"
->
-  Contact
-</a> */}
-
-{/* <a 
-  href="https://reactjs.org"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  About
-</a> */}
