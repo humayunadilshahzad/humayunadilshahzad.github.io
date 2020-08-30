@@ -9,8 +9,8 @@ function Project(props) {
         {/* <h3>{props.pic}</h3> */}
         <img className='appimg' src={props.pic} alt='Pic'></img>
         <div className='links'>
-            <a href={props.gitResourceLink} target="_blank" title='view code on git'><img className='linkimg' src={GitLinkLogo} alt='Pic'/></a>
-            <a href={props.liveLink} target="_blank" title='Goto webSite'>< img className='linkimg' src={WebLinkLogo} alt='Pic' /></a>
+            <a href={props.gitResourceLink} target="_blank" rel="noopener noreferrer" title='view code on git'><img className='linkimg' src={GitLinkLogo} alt='Pic'/></a>
+            <a href={props.liveLink} target="_blank" rel="noopener noreferrer" title='Goto webSite'>< img className='linkimg' src={WebLinkLogo} alt='Pic' /></a>
             {/* <button>See Live</button>
             <button>GitHub Code</button> */}
         </div>
