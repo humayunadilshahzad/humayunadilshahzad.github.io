@@ -1,0 +1,11 @@
+.projects{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap: 1rem;
+    grid-auto-flow: dense;
+    padding: 2rem;
+    /*justify-content: space-around;
+    padding: 50px;
+     flex-wrap:wrap; */
+    border: 2px solid red;
+}
