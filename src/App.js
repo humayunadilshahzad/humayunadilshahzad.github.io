@@ -6,7 +6,7 @@ import Home from './pages/home/home'
 import Projects from './pages/projects/projects'
 import Qualification from './pages/qualification/qualification'
 import Leasure from './pages/leasure/leasure'
-
+import Footer from './components/footer/footer'
 import Contact from './pages/contact/contact'
 
 import {BrowserRouter as Router,Switch, Route} from 'react-router-dom'
@@ -26,6 +26,7 @@ function App() {
             <Route path='/leasure' component={Leasure} />
             <Route path='/contact' component={Contact} />
           </Switch>
+        <Footer />
       </header>
     </div>
     </Router>
