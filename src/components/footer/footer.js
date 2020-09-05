@@ -5,6 +5,7 @@ function Footer(){
         <div className='foot'>
             <a href='#'>linkedIn</a>
             <a href='#'>Github</a>
+            <a href='#'>facebook</a>
             
         </div>
     )

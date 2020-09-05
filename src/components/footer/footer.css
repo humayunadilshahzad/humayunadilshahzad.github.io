@@ -4,5 +4,6 @@
     display: flex;
     align-items: center;
     text-align: center;
-    background-color: orange;
+    justify-content: space-around;
+    background:linear-gradient(to bottom ,#9c3708 , #eec39a);
 }
