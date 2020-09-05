@@ -1,0 +1,17 @@
+img{
+    height: 200px;
+    margin-left:2em;
+}
+
+h3{
+    color:#9c3708;
+}
+.abc{
+display: flex;
+padding: 5em;
+align-items: center;
+}
+.alignleft{
+    text-align:left;
+    text-indent: 5em;
+}
