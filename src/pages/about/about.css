@@ -14,4 +14,5 @@ align-items: center;
 .alignleft{
     text-align:left;
     text-indent: 5em;
+    margin-bottom:1em;
 }
