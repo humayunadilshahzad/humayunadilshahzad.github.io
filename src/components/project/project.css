@@ -1,5 +1,5 @@
 .project{
-    border: 1px solid gray;
+    box-shadow: 6px 3px lightgrey;
     width:300px;
     height: 400px;
     display: flex;
