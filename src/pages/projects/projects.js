@@ -57,8 +57,23 @@ const proj =[
 function Projects() {
   return (
       <div className='projects'>   
+
+
+
         {proj.map(p=> 
-            <Project  title={p.title} pic={p.pic} gitResourceLink={p.githubSourceLink} liveLink={p.webLink} about={p.about}/>
+          <div className='card-container'>
+            <div className='card'>
+              
+                  <figure className='front'>
+                    <Project  title={p.title} pic={p.pic} gitResourceLink={p.githubSourceLink} liveLink={p.webLink} about={p.about}/>
+                  </figure>
+
+                  <figure className='back'>
+                     <h5>Back</h5>
+                  </figure>
+
+            </div>
+          </div>
         )} 
     </div>
   );
@@ -66,3 +81,50 @@ function Projects() {
 
 
 export default Projects;
+
+
+//ORIGINAL WORKINF COMPONENT CAN BE COPY PASTED BACK JUST IN CASE
+
+// function Projects() {
+//   return (
+//       <div className='projects'>   
+//         {proj.map(p=> 
+//             <Project  title={p.title} pic={p.pic} gitResourceLink={p.githubSourceLink} liveLink={p.webLink} about={p.about}/>
+//         )} 
+//     </div>
+//   );
+// }
+
+///////////////////////////////////////////////////////////////////
+
+
+    // <div className='projects'>   
+    
+    //     <div  className='container'>
+    //         <div className='card'>
+    //           {
+    //           proj.map(p=> 
+    //           <Project className='front' title={p.title} pic={p.pic} gitResourceLink={p.githubSourceLink} liveLink={p.webLink} about={p.about}/>
+    //           )} 
+    //         </div>
+    //         <div className='back'>Back</div>
+    //     </div>
+
+ 
+    // </div>
+
+
+    
+//     <div className='projects'>   
+
+//     <div className='container'>
+//         <div className='card'>
+//            <div className='front'></div>
+//            <div className='back'></div>
+//         </div>
+//     </div>
+
+//     {proj.map(p=> 
+//         <Project  title={p.title} pic={p.pic} gitResourceLink={p.githubSourceLink} liveLink={p.webLink} about={p.about}/>
+//     )} 
+// </div>
