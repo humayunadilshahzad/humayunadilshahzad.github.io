@@ -28,13 +28,9 @@ const qlf =[
 function Qualifications() {
   return (
     <div>
-
         { qlf.map(qualifq=>
           <Qualif title={qualifq.title} institute={qualifq.institue} majors={qualifq.majors} yearPassed={qualifq.year}/>
         )}
-
-        {/* <h3>Education and Qualification</h3> */}
-              {/* <Qualif title={qlf[0].title} institute={qlf[0].institue} majors={qlf[0].majors} yearPassed={qlf[0].year}/> */}
     </div>
   );
 }
