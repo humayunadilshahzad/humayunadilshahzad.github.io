@@ -8,9 +8,9 @@ return(
                 {/* <h1>Title: {props.title}</h1> */}
                 <h3>{props.title}</h3>
                 <hr></hr>
-                <h5>Institute: {props.institute}</h5>
-                <h5>Majors: {props.majors}</h5>
-                <h5>Term: {props.yearPassed}</h5>
+                <p className='qualif-detail'>Institute: {props.institute}</p>
+                <p className='qualif-detail'>Majors: {props.majors}</p>
+                <p className='qualif-detail'>Term: {props.yearPassed}</p>
             </div>
     </div>
 )
