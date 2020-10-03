@@ -1,6 +1,7 @@
 import React from 'react';
 import './projects.css';
 import Project from '../../components/project/project';
+import Links from '../../components/links/links.component'
 import SeasoneyAppPic from '../../images/seasonyApp1.png';
 import weatherAppPic from '../../images/weatherApp.png';
 import giffyAppPic from '../../images/giffyApp.png';
@@ -13,7 +14,7 @@ const proj =[
     {title:'Seasoney',
     pic:SeasoneyAppPic,
     about:'This App is made for Seasony vertical formingThis App is made for Seasony vertical formingThis App is made for Seasony vertical forming',
-    skills:['html','css','js','react','node','figma','Mysql','knex'],
+    skills:['html','css','js','react','node','figma','Mysql','knex','firebase','heroku'],
     githubSourceLink:'https://github.com/HackYourFuture-CPH/FP-class11',
     webLink:'https://fp-class11.herokuapp.com/dashboard'},
 
@@ -65,14 +66,21 @@ function Projects() {
             <div className='card'>
               
                   <figure className='front'>
-                    <Project  title={p.title} pic={p.pic} gitResourceLink={p.githubSourceLink} liveLink={p.webLink} about={p.about}/>
+                    <Project  title={p.title} pic={p.pic} 
+                    // gitResourceLink={p.githubSourceLink} liveLink={p.webLink} 
+                    about={p.about}/>
                   </figure>
 
                   <figure className='back'>
-                     <h5>Back</h5>
+                     <h2>Technologies</h2>
+                     <img className='cardbackimg' src={p.pic} alt='project pic'></img>
+                     <p>
+                   {p.skills.map (s=> {return s+'. '})}</p>
+                    {/* <p>{p.skills[0]}</p> */}
                   </figure>
 
             </div>
+            <Links  gitResourceLink={p.githubSourceLink} liveLink={p.webLink} />
           </div>
         )} 
     </div>
