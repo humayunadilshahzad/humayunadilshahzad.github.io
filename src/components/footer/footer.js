@@ -5,9 +5,9 @@ import './footer.css'
 function Footer(){
     return(
         <div className='foot'>
-            <a href='https://www.linkedin.com/in/humayun-adil-21771071/' target="blank" ><FaLinkedin/>linkedIn</a>
-            <a href='https://github.com/humayunadilshahzad' target="blank"><FaGithub/> Github</a>
-            <a href='https://www.facebook.com/humayun.adil' target="blank"><FaFacebook/>facebook</a>
+            <a className='linkstyle'  href='https://www.linkedin.com/in/humayun-adil-21771071/' target="blank" ><FaLinkedin/> linkedIn</a>
+            <a className='linkstyle' href='https://github.com/humayunadilshahzad' target="blank"><FaGithub/> Github</a>
+            <a className='linkstyle' href='https://www.facebook.com/humayun.adil' target="blank"><FaFacebook/> facebook</a>
             
         </div>
     )
