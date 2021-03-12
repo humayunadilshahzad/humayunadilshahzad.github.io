@@ -10,4 +10,12 @@
 
 .linkstyle{
     text-decoration: none;
+    float: right;
+    margin-left: 2em;
+    display: flex;
+}
+.socialmedialinks{
+    width:20%;
+
+    border:1px solid black;
 }

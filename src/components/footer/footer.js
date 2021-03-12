@@ -5,10 +5,11 @@ import './footer.css'
 function Footer(){
     return(
         <div className='foot'>
-            <a className='linkstyle'  href='https://www.linkedin.com/in/humayun-adil-21771071/' target="blank" ><FaLinkedin/> linkedIn</a>
-            <a className='linkstyle' href='https://github.com/humayunadilshahzad' target="blank"><FaGithub/> Github</a>
-            <a className='linkstyle' href='https://www.facebook.com/humayun.adil' target="blank"><FaFacebook/> facebook</a>
-            
+            <div className='socialmedialinks'>
+            <a className='linkstyle'  href='https://www.linkedin.com/in/humayun-adil-21771071/' target="blank" >< FaLinkedin/> </a>
+            <a className='linkstyle' href='https://github.com/humayunadilshahzad' target="blank"><FaGithub/> </a>
+            <a className='linkstyle' href='https://www.facebook.com/humayun.adil' target="blank"><FaFacebook/> </a>
+            </div>
         </div>
     )
 }
