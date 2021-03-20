@@ -1,14 +1,43 @@
 .contactform{
     margin: auto;
-    width: 500px;
+    width: 700px;
     height: auto;
     background-color: rgb(189, 118, 118);
     display:flex;
     flex-direction: column;
     align-items: center;
 }
-img{
-    border: 1px solid rgb(170, 34, 34);
+
+.contactform-right{
+    margin: auto;
+    width: 700px;
     height: auto;
-    width: auto;
+    background-color: rgb(189, 118, 118);
+    /* border:1px solid red; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ /* dont change it .. or else it will be applied on about us image  */
+img{
+    /* border: 1px solid rgb(170, 34, 34); */
+    /* height: auto;
+    width: auto; */
+}
+.twocoloumndiv{
+    display: flex;
+/* border: 1px solid black; */
+height:700px;
+width: inherit;
+}
+.abcc{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    /* border: 1px solid red; */
+    /* height: 100px;
+    width: 150px; */
+    padding: 0 ;
+    margin: auto;
 }

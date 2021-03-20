@@ -1,22 +1,29 @@
 import React from 'react';
 import './contact.css';
-import {FaMailBulk} from "react-icons/fa"
+// import { FaMailBulk } from "react-icons/fa"
+import contact from '../../images/message-64.png';
+
 
 //import NavBar from './components/top_menu/topMenu'
 
 function Contact() {
   return (
     <div className="contactform">
-        <h1>Contact Me</h1>
-        <img src="" alt="letter Pic"></img>
-        <FaMailBulk className='img'/>
-        <input></input>
-        <input></input>
-        <input></input>
-        <button>Submit</button>
-        
-        <h3>Humayun_adil@hotmail.com</h3>
-    </div>                                              
+      <h1>Contact Me</h1>
+      <div className='twocoloumndiv'>
+        <div className='abcc'> 
+          {/* <FaMailBulk className='img' /> */}
+          <img src= {contact} alt="letter Pic"></img>
+        </div>
+        <div className='contactform-right'>
+          <input></input>
+          <input></input>
+          <input></input>
+          <button>Submit</button>
+        </div>
+      </div>
+      <h3>Humayun_adil@hotmail.com</h3>
+    </div> 
   );
 }
 
