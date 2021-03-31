@@ -1,7 +1,9 @@
 import React from 'react';
 import './contact.css';
 // import { FaMailBulk } from "react-icons/fa"
-import contact from '../../images/message-64.png';
+// import contact from '../../images/message-64.png';
+import contact from '../../images/msg.png';
+
 
 
 //import NavBar from './components/top_menu/topMenu'
@@ -16,10 +18,10 @@ function Contact() {
           <img src= {contact} alt="letter Pic"></img>
         </div>
         <div className='contactform-right'>
-          <input></input>
-          <input></input>
-          <input></input>
-          <button>Submit</button>
+          <input className='cont-txtbox'></input>
+          <input className='cont-txtbox'></input>
+          <input className='cont-txtbox'></input>
+          <button className='cont-sub-btn'>Submit</button>
         </div>
       </div>
       <h3>Humayun_adil@hotmail.com</h3>
