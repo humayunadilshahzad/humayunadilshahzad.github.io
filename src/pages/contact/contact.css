@@ -6,11 +6,19 @@
     display:flex;
     flex-direction: column;
     align-items: center;
+    /* border: 3px solid green; */
+}
+
+.twocoloumndiv{
+    display: flex;
+/* border: 1px solid black; */
+/* height:700px; */
+width: 80%;
 }
 
 .contactform-right{
-    margin: auto;
-     width: 700px;
+    /* margin: auto; */
+     width: 60%;
     height: 200px;
     /* background-color: rgb(189, 118, 118); */
      /* border:1px solid red;  */
@@ -18,34 +26,30 @@
     flex-direction: column;
     align-items: center;
     justify-content:space-around;
-
-    
 }
 
- /* dont change it .. or else it will be applied on about us image  */
-img{
-    /* border: 1px solid rgb(170, 34, 34); */
-    /* height: auto;
-    width: auto; */
-}
-.twocoloumndiv{
-    display: flex;
-/* border: 1px solid black; */
-height:700px;
-width: inherit;
-}
-.abcc{
+.left-pannel{
     display: flex;
     align-items: center;
     align-content: center;
-    /* border: 1px solid red; */
-    /* height: 100px;
-    width: 150px; */
-    padding: 0 ;
-    margin: auto;
+     /* border: 1px solid red; */
+     height: 200px;
+    width: 40%; 
+      padding: 0 0 0 0;
+    /* margin:0 auto; */ 
     justify-content:space-around;
 
 }
+
+ /* dont change it .. or else it will be applied on about us image  */
+.img-cont{
+    /* border: 1px solid rgb(170, 34, 34); */
+     height: auto;
+    width: 100px; 
+    /* border:1px solid red; */
+} 
+
+
 .cont-txtbox{
     width: 250px;
     border-radius: 12px;

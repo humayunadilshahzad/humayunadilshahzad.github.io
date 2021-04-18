@@ -13,9 +13,9 @@ function Contact() {
     <div className="contactform">
       <h1>Contact Me</h1>
       <div className='twocoloumndiv'>
-        <div className='abcc'> 
+        <div className='left-pannel'>
           {/* <FaMailBulk className='img' /> */}
-          <img src= {contact} alt="letter Pic"></img>
+          <img  className='img-cont' src={contact} alt="letter Pic" ></img>
         </div>
         <div className='contactform-right'>
           <input className='cont-txtbox'></input>
@@ -25,7 +25,7 @@ function Contact() {
         </div>
       </div>
       <h3>Humayun_adil@hotmail.com</h3>
-    </div> 
+    </div>
   );
 }
 
