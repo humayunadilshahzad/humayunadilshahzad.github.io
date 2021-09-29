@@ -3,19 +3,22 @@
 nav{
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    height: 100px;
-    background:linear-gradient(to bottom ,#9c3708 , #eec39a);
+    align-items: top;
+    height: 300px;
+    background-image:url(../../images/blue-bg.jpg) ;
+    /* background:linear-gradient(to bottom ,#9c3708 , #eec39a); */
     
 
 }
-.logo{
-    color:rgb(233, 227, 227);
+.logo h3{
+    margin-top: 100px;
+    color:rgb(253, 251, 250);
     text-transform:uppercase ;
     letter-spacing: 3px;
 
 }
 .navlinks{
+    margin-top: 10px;
     display: flex;
     justify-content: space-around;
     width: 40%;
