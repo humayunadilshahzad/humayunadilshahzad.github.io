@@ -20,7 +20,7 @@ align-items: center;
     margin-bottom:1em;
 }
 .about-mypic{
-    border:5px solid orange;
+    border:5px solid rgb(37, 85, 129);
     padding:2px;
     border-radius: 15px;
 }
