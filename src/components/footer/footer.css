@@ -5,7 +5,9 @@
     align-items: center ;
     text-align: center;
     justify-content: space-around;
-    background:linear-gradient(to bottom ,#9c3708 , #eec39a);
+    background-image:url(../../images/blue-bg.jpg) ;
+
+    /* background:linear-gradient(to bottom ,#9c3708 , #eec39a); */
 }
 
 .linkstyle{
