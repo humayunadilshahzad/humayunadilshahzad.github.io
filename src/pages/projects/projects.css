@@ -32,9 +32,11 @@
     position: absolute;
     margin:0;
 }
+
 .card .front{
-   
+ 
 }
+
 .card .back{
     transform: rotateY(180deg);
     background-color:whitesmoke;

@@ -58,16 +58,13 @@ const proj =[
 function Projects() {
   return (
       <div className='projects'>   
-
-
-
         {proj.map(p=> 
           <div className='card-container'>
             <div className='card'>
               
                   <figure className='front'>
                     <Project  title={p.title} pic={p.pic} 
-                    // gitResourceLink={p.githubSourceLink} liveLink={p.webLink} 
+                     gitResourceLink={p.githubSourceLink} liveLink={p.webLink} 
                     about={p.about}/>
                   </figure>
 
@@ -76,7 +73,7 @@ function Projects() {
                      <img className='cardbackimg' src={p.pic} alt='project pic'></img>
                      <p>
                    {p.skills.map (s=> {return s+'. '})}</p>
-                    {/* <p>{p.skills[0]}</p> */}
+                    <p>{p.skills[0]}</p>
                   </figure>
 
             </div>
